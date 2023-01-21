@@ -12,7 +12,7 @@ public class SpringBootDockerApplication {
 	@GetMapping("/message")
 	public String getMessage()
 	{
-		return "Welcome to My First Docker project";
+		return "Welcome to My First Docker project"+"Second change";
 	}
 
 	public static void main(String[] args) {
